@@ -52,6 +52,6 @@ class ClientErrorsLoggingEndpoint implements ApplicationResource {
 	 */
 	@Override
 	Map<String, Object> getResourceMap() {
-		return ['logging': [url: getContextPath()+"/clientrerrorlogger/log"]]
+		return ['logging': [url: getContextPath()+"/clienterrorlogger/log"]]
 	}
 }

@@ -32,11 +32,6 @@
 			<version>[3.4,4)</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>nz.ac.auckland.lmz</groupId>
-			<artifactId>javascript-resources</artifactId>
-			<version>[1,)</version>
-		</dependency>
 
 		<dependency>
 			<groupId>nz.ac.auckland.composite</groupId>

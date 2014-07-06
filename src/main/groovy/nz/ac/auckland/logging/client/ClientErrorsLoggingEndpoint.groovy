@@ -10,6 +10,8 @@ import javax.annotation.PostConstruct
 import javax.inject.Inject
 
 /**
+ * To make client-error-logging endpoint available on the client.
+ *
  * author: Irina Benediktovich - http://plus.google.com/+IrinaBenediktovich
  */
 @CompileStatic
@@ -20,10 +22,6 @@ class ClientErrorsLoggingEndpoint implements ApplicationResource {
 	 * System property that contains web app context
 	 */
 	private static final String WEBAPP_CONTEXT = "webapp.context";
-
-	@net.stickycode.stereotype.configured.Configured
-	String meh = "meh.";
-
 
 	/**
 	 * @return the context path
